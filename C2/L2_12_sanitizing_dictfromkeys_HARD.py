@@ -16,7 +16,7 @@ str2 = 'n\u0303o'
 print(str2.translate(cmbchar))
 
 #list all ascii
-digimap = {c:ord('0')+unicodedata.digit(chr(c))for c in range(sys.maxunicode)if unicodedata.category(chr(c))=='Nd'}
+digimap = {c:ord('0')+unicodedata.digit(chr(c))for c in range(sys.maxunicode)if unicodedata.category(chr(c))=='Nd'}  #also review L3_3
 x='\u0662'
 print(x.translate(digimap))
 

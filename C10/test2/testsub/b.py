@@ -1,4 +1,4 @@
 __author__ = 'Hernan Y.Ke'
-class A:
+class B:
     def pr(self):
-        print('A')
+        print('B')
